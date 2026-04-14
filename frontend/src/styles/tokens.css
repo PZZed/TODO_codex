@@ -1,0 +1,20 @@
+:root {
+  --app-max-width: 960px;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+}
+
+html, body, #app {
+  margin: 0;
+  min-height: 100%;
+}
+
+.mobile-container {
+  width: 100%;
+  max-width: var(--app-max-width);
+  margin: 0 auto;
+  padding: var(--space-4);
+}

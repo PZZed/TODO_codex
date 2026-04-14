@@ -1,0 +1,13 @@
+/* Mobile-first utility layer */
+.grid-mobile {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+}
+
+@media (min-width: 960px) {
+  .grid-mobile {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+}
